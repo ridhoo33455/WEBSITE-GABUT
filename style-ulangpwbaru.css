@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+.form-container h1 {
+    font-size: 1.8rem;
+    color: #0056b3;
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 1.2rem;
+    color: #fcb900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #003f7d;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .form-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-container h2 {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
